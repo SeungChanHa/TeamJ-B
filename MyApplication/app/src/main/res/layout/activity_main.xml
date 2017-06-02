@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.myapplication.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/cellsquare"
+        android:layout_width="218dp"
+        android:layout_height="125dp"
+        android:orientation="horizontal"
+        android:background="@drawable/cellsquare"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="-1dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/affiliatedcompany"
+        android:layout_width="199dp"
+        android:layout_height="128dp"
+        android:orientation="horizontal"
+        android:background="@drawable/affiliatedcompany"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="248dp"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/NaturalSciences"
+        android:layout_width="164dp"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:background="@drawable/naturalsciences"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="-1dp"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/employment"
+        android:layout_width="183dp"
+        android:layout_height="126dp"
+        android:orientation="horizontal"
+        android:background="@drawable/employment"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="249dp"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/news"
+        android:layout_width="218dp"
+        android:layout_height="125dp"
+        android:orientation="horizontal"
+        android:background="@drawable/news"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="124dp"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/studyroom"
+        android:layout_width="129dp"
+        android:layout_height="134dp"
+        android:orientation="horizontal"
+        android:background="@drawable/studyroom"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="376dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/map"
+        android:layout_width="127dp"
+        android:layout_height="134dp"
+        android:orientation="horizontal"
+        android:background="@drawable/map"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="376dp"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/discussion"
+        android:layout_width="129dp"
+        android:layout_height="136dp"
+        android:orientation="horizontal"
+        android:background="@drawable/discussion"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="376dp"></LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
